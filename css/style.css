@@ -1,0 +1,48 @@
+.red{
+	background: red;
+	padding:60px 0;
+}
+.container{
+	max-width:1170px;
+	width: 100%;
+	margin:0 auto;
+	background-color: aqua;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img{
+	width: 300px;
+
+}
+.image{
+	border: 2px solid red;
+	padding:20px;
+}
+.image2{
+	border: 2px solid red;
+	padding:20px;
+}
+
+@media (max-width: 1240px){
+	.flex{
+		flex-direction: column;
+	}
+
+}
+/*@media (max-width:515px){
+	.flex{
+		justify-content: center;
+	}
+}*/
+@media (max-width: 750px){
+	.flex{
+		justify-content: center;
+	}
+	.image{
+		margin-top: 10px;
+	}
+
+}
